@@ -1,0 +1,17 @@
+{
+  "name": "3d-cartoon-animation",
+  "version": "1.0.1",
+  "description": "A Claude skill package for vertical 3D cartoon explainer shorts: the method as 14 skills, a three.js frame-exact renderer, synthesised sound and quality checks.",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "render": "node recipe/tools/render.mjs",
+    "storyboard": "node recipe/tools/storyboard-board.mjs",
+    "voiceover": "node recipe/tools/voiceover.mjs",
+    "jump-scan": "node recipe/tools/jump-scan.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.62.0"
+  }
+}

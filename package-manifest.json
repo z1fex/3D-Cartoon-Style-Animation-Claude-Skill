@@ -1,0 +1,1112 @@
+{
+  "name": "3d-cartoon-animation",
+  "display_name": "3D Cartoon Animation",
+  "version": "1.0.1",
+  "created": "2026-10-26",
+  "edition": "public (2026-11-11): portable tools, private notes removed; films render the same as 1.0.0",
+  "maturity": "owner-approved-on-one-film; method generalised for any topic",
+  "entrypoint": "SKILL.md",
+  "readme": "README.md",
+  "kind": "style-package: markdown skills + a three.js frame-exact renderer + sound and QA tools + a worked example",
+  "owner_approval": {
+    "round": 1,
+    "version": "v3",
+    "film": "examples/how-gravity-was-found/final/How gravity was found - v3.mp4",
+    "date": "2026-10-26",
+    "words": "I really like this. I really liked this video."
+  },
+  "owner": "the person the films are made for, who approves the storyboard and the film",
+  "topic_neutral": true,
+  "skill_catalog": [
+    {
+      "id": "01",
+      "name": "topic-to-film",
+      "path": "skills/01-topic-to-film/SKILL.md",
+      "description": "Turn any topic into a 3D Cartoon Animation film idea - the angle, the hook, the cast, the places, the numbers that become objects, and the one big literal picture. Use first, before writing the script."
+    },
+    {
+      "id": "02",
+      "name": "script-and-retention",
+      "path": "skills/02-script-and-retention/SKILL.md",
+      "description": "Write a retention-first narration for a 3D Cartoon Animation short - hook, early payoff, stakes, escalation, re-hook, twist, loop - at about 3.3 words a second, one idea per clause, with every claim sourced. Use after topic-to-film and before the voiceover."
+    },
+    {
+      "id": "03",
+      "path": "skills/03-voiceover-and-timing/SKILL.md"
+    },
+    {
+      "id": "04",
+      "path": "skills/04-storyboard-and-shot-plan/SKILL.md"
+    },
+    {
+      "id": "05",
+      "name": "look-lighting-and-brand",
+      "path": "skills/05-look-lighting-and-brand/SKILL.md",
+      "description": "The \"Cinema\" toon look of the 3D Cartoon Animation style (soft banded shading, ink outlines, rim light, depth of field, bloom, grade, grain), the light presets, and how the owner's brand palette is used on clothes, props, sets and real-world objects. Use when building any place, prop or character."
+    },
+    {
+      "id": "06",
+      "name": "characters-and-faces",
+      "path": "skills/06-characters-and-faces/SKILL.md",
+      "description": "Build original 3D cartoon characters for any topic (ball head, bean body, stick limbs, mitten hands) with skin tones, brand-colour outfits, hair, hats, glasses and beards, and act them with painted faces that swap through a blink. Use when casting a film."
+    },
+    {
+      "id": "07",
+      "name": "motion-and-acting",
+      "path": "skills/07-motion-and-acting/SKILL.md",
+      "description": "Act every clause of a 3D Cartoon Animation film - pose keys that land 4 frames before their word, dead-still holds, head follow-through, real-gravity falls and physical gags - with the engine's pose library. Use when building each shot."
+    },
+    {
+      "id": "08",
+      "name": "camera-and-transitions",
+      "path": "skills/08-camera-and-transitions/SKILL.md",
+      "description": "Frame and move the camera in a 3D Cartoon Animation film - an orbit around a named subject placed 43% from the top, 44-50° vertical fov, a travel curve that is fast at the cuts and creeps between them, and 6-frame dissolves on the first word of each sentence. Use for every shot."
+    },
+    {
+      "id": "09",
+      "name": "facts-as-objects",
+      "path": "skills/09-facts-as-objects/SKILL.md",
+      "description": "Turn every spoken number in a 3D Cartoon Animation film into an in-world device that lands on its exact word - flip counters, calendars, tape measures, LED panels, signs, gauges - and choose the right device for each kind of number. Use for every number in the script."
+    },
+    {
+      "id": "10",
+      "name": "sets-and-props",
+      "path": "skills/10-sets-and-props/SKILL.md",
+      "description": "Build the places of a 3D Cartoon Animation film for any topic from the place kit (exterior, interior, studio void, outer space), dress them densely with props in brand colours, and make new props in the style. Use when planning and building each place."
+    },
+    {
+      "id": "11",
+      "name": "captions-and-title-hook",
+      "path": "skills/11-captions-and-title-hook/SKILL.md",
+      "description": "Write and lay out the on-screen text of a 3D Cartoon Animation film - the topic question at the top for the first 2-3 seconds, and editorial caption lockups (Helvetica Bold capitals + Editorial New Italic in brand red, stacked, mixed sizes, word-by-word reveal). Use after the script and voice timings exist."
+    },
+    {
+      "id": "12",
+      "name": "sound-design-and-mix",
+      "path": "skills/12-sound-design-and-mix/SKILL.md",
+      "description": "Design the sound of a 3D Cartoon Animation film - an original music bed, a quiet foley sound on every visible action, accents on story beats, measured levels against the voice, stop-downs before the biggest hits - with the engine's 24 synthesised effects, and master it to -14 LUFS. Use after the picture is locked."
+    },
+    {
+      "id": "13",
+      "path": "skills/13-render-and-quality-checks/SKILL.md"
+    },
+    {
+      "id": "14",
+      "name": "review-rounds-and-learning",
+      "path": "skills/14-review-rounds-and-learning/SKILL.md",
+      "description": "Run review rounds with the owner on a 3D Cartoon Animation film (deliver, take feedback, fix, re-check every frame, re-deliver), record what was learned, and fold it back into this package so the next topic starts better. Use after each delivery and whenever the owner gives feedback."
+    }
+  ],
+  "style_picker": {
+    "id": "3d-cartoon-animation",
+    "name": "3D Cartoon Animation",
+    "package": "3d-cartoon-animation",
+    "version": "1.0.1",
+    "tagline": "Big-headed toon characters explain anything in 30-60 s: faces that swap on the word, numbers that land as objects, editorial captions and a sound on every action.",
+    "bestFor": [
+      "history",
+      "science",
+      "how things work",
+      "what happens when",
+      "myth-busting"
+    ],
+    "format": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "seconds": [
+        30,
+        60
+      ]
+    },
+    "poster": "../examples/how-gravity-was-found/final/poster.png",
+    "previewVideo": "../examples/how-gravity-was-found/final/How gravity was found - v3.mp4",
+    "storyboard": "../examples/how-gravity-was-found/final/storyboard.png",
+    "look": {
+      "faces": "skin tones",
+      "palette": [
+        "#5B0D18",
+        "#083B3A",
+        "#8A4E2A",
+        "#E7E3DD",
+        "#1B1B1F"
+      ],
+      "highlight": "#E0394F",
+      "fonts": [
+        "Helvetica Bold",
+        "Editorial New Italic"
+      ]
+    },
+    "needs": [
+      "a topic",
+      "an ElevenLabs voice (or a recorded voiceover)"
+    ],
+    "approvedExample": "examples/how-gravity-was-found/final/How gravity was found - v3.mp4"
+  },
+  "references": [
+    "references/owner-direction.md",
+    "references/reference-study.md",
+    "references/engine-api.md",
+    "references/engine-notes.md",
+    "references/glitch-catalogue.md",
+    "references/feedback-history.md"
+  ],
+  "templates": [
+    "templates/new-film/film.mjs",
+    "templates/new-topic-worksheet.md",
+    "templates/script-template.md",
+    "templates/storyboard-template.md",
+    "templates/storyboard.json",
+    "templates/round-review-template.md"
+  ],
+  "workflow": "storyboard first (skill 4): the owner reviews and approves a visual storyboard in their own framework (recipe/tools/storyboard-board.mjs) before the voice, the build or any render; rule from 2026-10-27",
+  "evaluation": [
+    "evaluation/delivery-checklist.md",
+    "evaluation/acceptance-criteria.md",
+    "evaluation/known-limits.md"
+  ],
+  "examples": [
+    {
+      "slug": "how-gravity-was-found",
+      "status": "approved",
+      "seconds": 30.3,
+      "shots": 20,
+      "effects": 80
+    }
+  ],
+  "requirements": {
+    "node": ">=22 (ES modules)",
+    "npm": [
+      "playwright (npm install; npx playwright install chromium)"
+    ],
+    "browser": "Playwright Chromium, or any Chrome with GPU WebGL2 (env CARTOON_CHROME)",
+    "ffmpeg": ">=6 with ffprobe, on the PATH (or env CARTOON_FFMPEG)",
+    "python": ">=3.10 with numpy (requirements.txt)",
+    "voice": "ElevenLabs API key with text-to-speech permission (env ELEVENLABS_API_KEY, never stored)",
+    "paths": "recipe/tools/paths.mjs (env CARTOON_FFMPEG, CARTOON_CHROME, CARTOON_PLAYWRIGHT)",
+    "tested": "Windows 11"
+  },
+  "licences": {
+    "three.js r186": "MIT",
+    "Titan One": "SIL OFL 1.1",
+    "TeX Gyre Heros (Helvetica stand-in)": "GUST Font License",
+    "Instrument Serif (Editorial New stand-in)": "SIL OFL 1.1",
+    "Helvetica / Editorial New": "not included; licensed files go in recipe/engine/fonts/brand/",
+    "music and effects": "synthesised in code; effect design after earshot docs (MIT)"
+  },
+  "excluded": "The reference tutorial's video, transcript and frame sheets (the creator's material) are not included; references/reference-study.md is our own summary, with credit.",
+  "verification": {
+    "date": "2026-11-11",
+    "setup": "a clean copy: npm install, Playwright Chromium, FFmpeg on the PATH",
+    "reRenderedFromPackage": true,
+    "video": "BT.709 limited range (1.0.0 was full-range)",
+    "colourAgainstApproved": "mean 1.9/255, worst frame 2.3/255, PSNR >= 39 dB",
+    "jumpScan": "the 6 flags of v3 plus the calendar flip at 4.07 s (a gag on the threshold)",
+    "storyboardBoardRenders": true,
+    "framingIssues": "only the 2 intended (apple falling into frame; 1 frame at the trampoline edge)",
+    "soundLevels": "accents median -9.1 dB, foley -14.9 dB vs voice; master -14.2 LUFS",
+    "templateRendersWithDraftTiming": true
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 124,
+      "sha256": "f7c636741162b146a74f60aba9d7737d8f769951036bbb78acf1a8cad2429709"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 409,
+      "sha256": "0d6368350a622620dafb10e45b99eeedb074c5a7bca6d2a961474a40433148d0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5310,
+      "sha256": "8b217a1600907fc5044fea0ed31f737f0bcc8f6c4e45b919b21eba93e3e67f13"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 9560,
+      "sha256": "d6cc727c29825b4a2302cc19928e2144f16f309e4abf9acf3628a29b513f8b18"
+    },
+    {
+      "path": "evaluation/acceptance-criteria.md",
+      "bytes": 1117,
+      "sha256": "6db7f08c1d1691b75e7c50e640d1fa6bbe74e4c011f328350e680bddd89cfcef"
+    },
+    {
+      "path": "evaluation/delivery-checklist.md",
+      "bytes": 1747,
+      "sha256": "b88d0d63e03b6b4ba59f4c8157165cdf478fbb3d673b8e64ba5ffcc1ba4c8d4b"
+    },
+    {
+      "path": "evaluation/known-limits.md",
+      "bytes": 1654,
+      "sha256": "989f8dd23b0007eca1b5bc1a2a43eeca1eff46a9e32b36264ea6e484299ebc38"
+    },
+    {
+      "path": "examples/how-gravity-was-found/README.md",
+      "bytes": 1545,
+      "sha256": "753e17432ca2917a928304e66eb019e38dc2cc06208e1583486699f9a057fa6b"
+    },
+    {
+      "path": "examples/how-gravity-was-found/earlier-versions/How gravity was found - v1.mp4",
+      "bytes": 27227701,
+      "sha256": "9314c7e260184e25e9c42a4615e7ce43ce73ad2cf201100c3ee6ae474ab425ab"
+    },
+    {
+      "path": "examples/how-gravity-was-found/earlier-versions/How gravity was found - v2.mp4",
+      "bytes": 28507834,
+      "sha256": "06b1938db6efa9a7a8e8122e02c3cc28ebda0c915d5082c5a79f690df1623e3a"
+    },
+    {
+      "path": "examples/how-gravity-was-found/earlier-versions/v1-frame-review.md",
+      "bytes": 4791,
+      "sha256": "5b0e1a05ab1500ec7ae1a4b30ed6f25ad712e1637fbd01fe6b60411336b496e5"
+    },
+    {
+      "path": "examples/how-gravity-was-found/earlier-versions/v1-script.md",
+      "bytes": 2698,
+      "sha256": "41b87cd35adb52a721f43ac8f050bd401d3c56a4499f4ea8e80a63940c29b7e0"
+    },
+    {
+      "path": "examples/how-gravity-was-found/earlier-versions/v1-storyboard.png",
+      "bytes": 2049827,
+      "sha256": "f377c8c954a73cc973bc400e300e9bbf77ec8088bfe1a1e6908615f0ccecf54c"
+    },
+    {
+      "path": "examples/how-gravity-was-found/earlier-versions/v2-storyboard.png",
+      "bytes": 2415814,
+      "sha256": "a84c2dbe515792cd62e8b8bcd2aa7bfad5428527c76f849f49bdaed8fe97e677"
+    },
+    {
+      "path": "examples/how-gravity-was-found/film.mjs",
+      "bytes": 28366,
+      "sha256": "cf43550466f6a03dd2d9be99cb0513ecdd2de9b90cc8d764a0420fe6c077ebf8"
+    },
+    {
+      "path": "examples/how-gravity-was-found/final/How gravity was found - v3.mp4",
+      "bytes": 30420676,
+      "sha256": "0e35389ff01e998709e36c0f940038e173bc34d719e4d575fc9cbd9e931ab85c"
+    },
+    {
+      "path": "examples/how-gravity-was-found/final/cue-sheet.txt",
+      "bytes": 3040,
+      "sha256": "893a19200be283d48c6842b530672f8e8534c759774f8180676d579a86b8bb3a"
+    },
+    {
+      "path": "examples/how-gravity-was-found/final/mix.wav",
+      "bytes": 5920398,
+      "sha256": "e3b78df442a438999cafb6b436650c02477e7bd87586212cf6c2a83fc43ee247"
+    },
+    {
+      "path": "examples/how-gravity-was-found/final/poster.png",
+      "bytes": 1027964,
+      "sha256": "9de551913d5202bdc3d75cee06b3b21c9764dff36aaf69c2b69cc50b9eeee8af"
+    },
+    {
+      "path": "examples/how-gravity-was-found/final/stem-music.wav",
+      "bytes": 5920364,
+      "sha256": "4cbe1bf29cb54d203a1cd7c2490a3a302cfd14719d4984e09e56572b1deaf517"
+    },
+    {
+      "path": "examples/how-gravity-was-found/final/stem-sfx.wav",
+      "bytes": 5920364,
+      "sha256": "de57d4f9897c70d4a467be1a74c99ecbec6fa5addb51736a52a37ddba7212a1e"
+    },
+    {
+      "path": "examples/how-gravity-was-found/final/stem-voice.wav",
+      "bytes": 5920364,
+      "sha256": "599aba7ac2350debee1f0858fc62fce315b6e36f01c5e770fe67b91fe4ebb8d5"
+    },
+    {
+      "path": "examples/how-gravity-was-found/final/storyboard.png",
+      "bytes": 2544736,
+      "sha256": "cf4864004b26a99a79ba51e52fcec1b704b7aee5b6d603a0114074e4af1c2879"
+    },
+    {
+      "path": "examples/how-gravity-was-found/script.md",
+      "bytes": 2147,
+      "sha256": "178c3d52a0a64120d6ab2309937285d7c58bbbfa16669ed55e7a391f0abdef1d"
+    },
+    {
+      "path": "examples/how-gravity-was-found/storyboard.md",
+      "bytes": 5963,
+      "sha256": "e6da6b494a6f28a04084e69aadd86f3e82755d227888dc34edcb24e6df1ba27a"
+    },
+    {
+      "path": "examples/how-gravity-was-found/vo/alignment.json",
+      "bytes": 18642,
+      "sha256": "0b979b1181ce5e2be32a453d92173ea2ef2168a646c7eb5171349b5056feb493"
+    },
+    {
+      "path": "examples/how-gravity-was-found/vo/text.txt",
+      "bytes": 612,
+      "sha256": "2f32c7e180a76aff3ea5fe7bac190034ef4a6f3019252ba468b031ebe30a68d6"
+    },
+    {
+      "path": "examples/how-gravity-was-found/vo/voice-final.wav",
+      "bytes": 2879832,
+      "sha256": "905af3f3158c4de5627a7ebf6b8c878261204896c7b95e8236e2920306d58c86"
+    },
+    {
+      "path": "examples/how-gravity-was-found/vo/words-final.json",
+      "bytes": 9190,
+      "sha256": "51bbb10b03a1b0b8f73af626ad1503c5918bfa128e01f27cde6e51b132463225"
+    },
+    {
+      "path": "examples/how-gravity-was-found/vo/words.json",
+      "bytes": 9194,
+      "sha256": "3e2b5a47c79f6cf2860d4346ff5f6239b117f0a530c1da315f12f3a8caaf313b"
+    },
+    {
+      "path": "package.json",
+      "bytes": 594,
+      "sha256": "d26f6003992374924aeb1b618acf99b07ebb73997b5ab3ebb689aabbe1aa61f2"
+    },
+    {
+      "path": "preview/style-card.json",
+      "bytes": 1076,
+      "sha256": "bad239703b496cf681533478c6b3a76ed043621020267b4216234ff2a81d1063"
+    },
+    {
+      "path": "recipe/engine/character.mjs",
+      "bytes": 18960,
+      "sha256": "8f023a3ad4eeb630f9d7ece40a71e7de54f4f1d03e3f96854e5273ebcd110dbe"
+    },
+    {
+      "path": "recipe/engine/core.mjs",
+      "bytes": 19297,
+      "sha256": "f9dd38f179c453141cb25d4908c202c491821dc6e87d3fc05ccef072b85a1cd2"
+    },
+    {
+      "path": "recipe/engine/faces.mjs",
+      "bytes": 10137,
+      "sha256": "423e3181f8b36773f3e5da5195aad1b9c8683765cc3dab083f72a2184ecbc4a9"
+    },
+    {
+      "path": "recipe/engine/fonts/TitanOne-OFL.txt",
+      "bytes": 4418,
+      "sha256": "61be7c29f4835e2be7243db12213d75d53ff028f29f4b493212a1688b1d3a1ba"
+    },
+    {
+      "path": "recipe/engine/fonts/TitanOne-Regular.ttf",
+      "bytes": 55712,
+      "sha256": "563ff6de179bbd44bcd7d2a6c448d6dc3bf935834237cf1250e506e65cd86ff1"
+    },
+    {
+      "path": "recipe/engine/fonts/brand/README.txt",
+      "bytes": 468,
+      "sha256": "4d86b449eac849a015af186799468b2869064f5107f57fed14c673f68b99a12c"
+    },
+    {
+      "path": "recipe/engine/fonts/standin/GUST-FONT-LICENSE.txt",
+      "bytes": 1456,
+      "sha256": "2bd69affc3da00715116f713f57eab9707e96daf3562ad0215987b15b9c16f73"
+    },
+    {
+      "path": "recipe/engine/fonts/standin/InstrumentSerif-Italic.ttf",
+      "bytes": 71592,
+      "sha256": "08939b8bdf534afec24ae0ef5e03f948940cd9a8fe08e7fecbad040e62327385"
+    },
+    {
+      "path": "recipe/engine/fonts/standin/InstrumentSerif-OFL.txt",
+      "bytes": 4405,
+      "sha256": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521"
+    },
+    {
+      "path": "recipe/engine/fonts/standin/InstrumentSerif-Regular.ttf",
+      "bytes": 70012,
+      "sha256": "498efd461f6ddfcb7a111bf9a565709d2085d48201d501ead960d93e84ffbb88"
+    },
+    {
+      "path": "recipe/engine/fonts/standin/texgyreheros-bold.otf",
+      "bytes": 135204,
+      "sha256": "b170162835f4efc288886dd4231406dc47e19b614cf4416836635599d44a7d60"
+    },
+    {
+      "path": "recipe/engine/fonts/standin/texgyreheros-regular.otf",
+      "bytes": 133600,
+      "sha256": "6ae1a09d5a940367b7aaaa91ee8bd8a2c333bfe193e7096e23f931357d62081f"
+    },
+    {
+      "path": "recipe/engine/index.html",
+      "bytes": 2696,
+      "sha256": "970d1d63257915550252f1d574c3e4b33814f8a1f14f6d60ad98471683e8dbc8"
+    },
+    {
+      "path": "recipe/engine/kit.mjs",
+      "bytes": 8099,
+      "sha256": "45086d6e1c92921e33b30fce5bf95d8e9eabb3cbefa97a48528bb7fde4182895"
+    },
+    {
+      "path": "recipe/engine/places.mjs",
+      "bytes": 10046,
+      "sha256": "7220dc79febb4ccb9c105e9445aaf5e0b15e790db54d6429e336afb829b84be3"
+    },
+    {
+      "path": "recipe/engine/places2.mjs",
+      "bytes": 5315,
+      "sha256": "6c7977cdd391f0f50973020d900205500e49f73f233ae9e316ed40f3522cdea8"
+    },
+    {
+      "path": "recipe/engine/props.mjs",
+      "bytes": 29274,
+      "sha256": "a0e497b94550eb0ec12b57e3d9992c34f897e06ef80cac84fdddcc142c1e3855"
+    },
+    {
+      "path": "recipe/engine/props2.mjs",
+      "bytes": 12574,
+      "sha256": "d3d9a12f9245f040d061864a26c3ecbd71c21522cb6191053565babd8163e491"
+    },
+    {
+      "path": "recipe/engine/vendor/three/LICENSE",
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "path": "recipe/engine/vendor/three/build/three.core.js",
+      "bytes": 1458113,
+      "sha256": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6"
+    },
+    {
+      "path": "recipe/engine/vendor/three/build/three.module.js",
+      "bytes": 662772,
+      "sha256": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/geometries/BoxLineGeometry.js",
+      "bytes": 3082,
+      "sha256": "5f4bd99627f84e1fe81cf1927ca867ac2968c9354d5e54b11849d0887170ad51"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/geometries/ConvexGeometry.js",
+      "bytes": 1710,
+      "sha256": "f52f4c5f0cc42eaef25d7330e912693ae1d7a9b0df0a599cd35f5854e9ecb34e"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/geometries/DecalGeometry.js",
+      "bytes": 10100,
+      "sha256": "6b2da6ea840926dfb0278841f96067c02964c73644c7f189720e89fe9baa2b10"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/geometries/LoftGeometry.js",
+      "bytes": 8761,
+      "sha256": "e49b03dc9b057fe4ba1a12e3a5dabd99d28ede21ce7ea87394efedeb8b4a5e53"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/geometries/ParametricFunctions.js",
+      "bytes": 2938,
+      "sha256": "7d533863edda651735af91c613927b7681bbe5179fce1141fcfe6592ea3f88d9"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/geometries/ParametricGeometry.js",
+      "bytes": 3808,
+      "sha256": "f25b69d9f8a5a7f8e206bb151875609349dabaf9bd81830779033ed2521e8a7a"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/geometries/RoundedBoxGeometry.js",
+      "bytes": 6470,
+      "sha256": "c5feab96123858ed8823c889b238dc8734adab7e760e3cfd21e7f3f2f3e348e3"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/geometries/TeapotGeometry.js",
+      "bytes": 18843,
+      "sha256": "05dfda4e24db0b48a3cc9c10b54c37ca4017921bd123175b0e57d72403227cd1"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/geometries/TextGeometry.js",
+      "bytes": 3312,
+      "sha256": "edf69c1cd6087c84d020156d1adbb29b40b098e4cbe8da4c0c36bbadc58dceac"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/postprocessing/AfterimagePass.js",
+      "bytes": 4388,
+      "sha256": "8cc0c8724a674a649d438c932e0b5f287e7d02f9fc35f627b669180bf4d2cc01"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/postprocessing/BloomPass.js",
+      "bytes": 6445,
+      "sha256": "5dcc005e8782003124a3e1406bbc37ce9b014791e263692fb098a81fc9c45e2a"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/postprocessing/BokehPass.js",
+      "bytes": 5531,
+      "sha256": "5b9b0bc5cee6e24b2417da95f40eb2d178943c2ffbacbc4c2993a89d0597bfb3"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/postprocessing/ClearPass.js",
+      "bytes": 2167,
+      "sha256": "69c525e8e3be28999453177a9d0bd1771d27a4d04378307242802fec84301bcb"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/postprocessing/CubeTexturePass.js",
+      "bytes": 3519,
+      "sha256": "3cc339151ad8deb69cbe7fab5c9d70d3190afc1446554256f4149791f7ff438f"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/postprocessing/DotScreenPass.js",
+      "bytes": 2941,
+      "sha256": "ef8fc81f6697a76abf42fe8a5e16343c7254b8ece68f2f2eb7a20190c86e3fe1"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/postprocessing/EffectComposer.js",
+      "bytes": 8501,
+      "sha256": "4e079a5886152d7e529a59aef644e968ab4d32c6a33ce016b36bf29b2eac26f7"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/postprocessing/FXAAPass.js",
+      "bytes": 738,
+      "sha256": "aa4e87a28f57e5508405730ee6bc09775b33acd3e87b3b24ef0d722b71e9d33a"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/postprocessing/FilmPass.js",
+      "bytes": 2684,
+      "sha256": "709a6e640b5ced2449e458d57656173208e81af064e414b9c6f775cbf1287ed2"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/postprocessing/GTAOPass.js",
+      "bytes": 19910,
+      "sha256": "a277f848d1035c751c54d9706e579aeb74689126ced25723e53d52ac3f26f445"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/postprocessing/GlitchPass.js",
+      "bytes": 4305,
+      "sha256": "8329d0656ce595dc70cf5d7c80c4ab0b7021bf906cea714f4aace77d56e67731"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/postprocessing/HalftonePass.js",
+      "bytes": 2882,
+      "sha256": "af7b1a9b82992c194d3a59ba15d74b4146231f7fbdc37345d4191ec974726aa9"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/postprocessing/LUTPass.js",
+      "bytes": 2230,
+      "sha256": "aef64d31e2528d25bccc00dd0c2d5aaf0a1d10f8ff9c7b66cfb48aeaba54987f"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/postprocessing/MaskPass.js",
+      "bytes": 4694,
+      "sha256": "7cd08eee9d5d6f5578beaddbdcbe9c384f6873810af27f22ab7db3ceeb127aa3"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/postprocessing/OutlinePass.js",
+      "bytes": 23272,
+      "sha256": "8eb486b1436432cf6f080c4a55b027f6d56b3ea66a9735c140a8be986107667b"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/postprocessing/OutputPass.js",
+      "bytes": 4184,
+      "sha256": "02e4a261af34de71338185e9e87f0cbe5cba9115608d984363e1269dec1d2272"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/postprocessing/Pass.js",
+      "bytes": 4218,
+      "sha256": "444b409c235ead986893c472e720da1b779a56985c7d10b279c7944b52bd61c5"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/postprocessing/RenderPass.js",
+      "bytes": 4280,
+      "sha256": "817f6c3cdcd0fd41515d112359ea0532568eefb5aabd3b33903957ebca1b8a6a"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/postprocessing/RenderPixelatedPass.js",
+      "bytes": 8151,
+      "sha256": "7da0c022251a23fecc717d9b9ae438ba53c31b2e579facae559e6f50ac979444"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/postprocessing/RenderTransitionPass.js",
+      "bytes": 5847,
+      "sha256": "215c71157f95965a82bfb4d8c70fb023e2b3102ab83e5c26bc1d3dd30bd26d4a"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/postprocessing/SAOPass.js",
+      "bytes": 13105,
+      "sha256": "fc66f83abeb26d6b6cf82680d9fe2e49158f7ed0bdf26ab2449267ccc1edfa79"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/postprocessing/SMAAPass.js",
+      "bytes": 50379,
+      "sha256": "1a96804b8cb33ba76a67f9a8e77f2d5e2bf47b1a5c9a8476901aa75e24acb85c"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/postprocessing/SSAARenderPass.js",
+      "bytes": 8150,
+      "sha256": "cd2b8e83b32e806091117dfbeff1f8f4e78df0175a4a3acd865b9989df1c420b"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/postprocessing/SSAOPass.js",
+      "bytes": 13463,
+      "sha256": "2f9c02a53e09917d039c07c5bd7a110f1ce39bc5ab2affa316ea94f5198ec586"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/postprocessing/SSRPass.js",
+      "bytes": 23300,
+      "sha256": "7d02386b7e54fd245ebb1f4329918e65cfe8c292a74e33edeb506b8a0935ee1f"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/postprocessing/SavePass.js",
+      "bytes": 2998,
+      "sha256": "408f2375ce09797499edcc73be2d57b68db4080937775e333497db1489138781"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/postprocessing/ShaderPass.js",
+      "bytes": 3228,
+      "sha256": "e2500a5913b26bbf5148ceaae644c6edcff06a18b01494ee37bf856353d2ab9d"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/postprocessing/TAARenderPass.js",
+      "bytes": 6487,
+      "sha256": "463dbda5d1f0f401b3575f60eddd2a84234ff5be44d29a3dc41129c34aba0f47"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/postprocessing/TexturePass.js",
+      "bytes": 2920,
+      "sha256": "402cfcdda8e69db5f0faa778c51b97fc2ec740846a088d169f555fc3403b7d7d"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/postprocessing/UnrealBloomPass.js",
+      "bytes": 15397,
+      "sha256": "ba8f2fcadfa6588384c9473498f974d81d120f02f0e63a0e59c265202a006b5a"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/ACESFilmicToneMappingShader.js",
+      "bytes": 2141,
+      "sha256": "47b2114c8b76e7e1b077ba1fbff949a092461072a07600cfea27c7c6b486f71e"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/AfterimageShader.js",
+      "bytes": 1048,
+      "sha256": "fb842ae657379a6ee3b431bd864b4e4956d36df14daf502bf6ffecdbf14de8bb"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/BasicShader.js",
+      "bytes": 523,
+      "sha256": "df365e491471e506d3665b58efbaf1e07618f18ade42cfae68843438ec72cc07"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/BleachBypassShader.js",
+      "bytes": 1356,
+      "sha256": "09309e11465b488fede34a85e1ee5e1610e3e9e5ec09cb7f91cdd0ee353c5a8c"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/BlendShader.js",
+      "bytes": 920,
+      "sha256": "6a437abf3ac314fef109209fc7c8809864d1ee18e52d2864a3f2309ec1b5d394"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/BokehShader.js",
+      "bytes": 5934,
+      "sha256": "bd8525158e3574a803f2e2ce5d5e263349a80ee41bf789e71446b9caa256aa9a"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/BokehShader2.js",
+      "bytes": 9865,
+      "sha256": "2aa29eebe47bff7fb5fe059df1be3e94430e3498ae14da947166979452145b65"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/BrightnessContrastShader.js",
+      "bytes": 1275,
+      "sha256": "9c72d86e39c9436d291b92210003073e6c1d8a791f05c723221d799eb4867ac0"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/ColorCorrectionShader.js",
+      "bytes": 1024,
+      "sha256": "f40ee720d3cbfd8526d1f85ce8c4a2832f926e36a34926c6b2fb04d96322c430"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/ColorifyShader.js",
+      "bytes": 834,
+      "sha256": "73993a34f2b5036c618d9bb0c7413cb7a15c3fc9bf2ca5f649a17e4cae4ed45b"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/ConvolutionShader.js",
+      "bytes": 1281,
+      "sha256": "bad71ed02351acb701e62e21a9d11f044c2c689d924d714061edb756fbea8ace"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/CopyShader.js",
+      "bytes": 729,
+      "sha256": "a33057d5ac91c43304c186ac0e8816e62bb2ed471d3a00ff3018dfd5c0389718"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/DOFMipMapShader.js",
+      "bytes": 1092,
+      "sha256": "835cae7d3c44ac9b32143d5e213df29a12571d96406d114ba1bc957e82f36856"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/DepthLimitedBlurShader.js",
+      "bytes": 4187,
+      "sha256": "c1594724212f6842fb4ccbbf72d686e2770a6213fe5ff4dbb13335897f6c7ade"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/DigitalGlitch.js",
+      "bytes": 2525,
+      "sha256": "873b9b39114ff174ca533be1e998a8c2db925e2fb9808e953c60167813432c63"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/DotScreenShader.js",
+      "bytes": 1378,
+      "sha256": "959a2e0ea3d4a89d67754e417c56bd67abd632427d51fab19361003cd0ca7cef"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/ExposureShader.js",
+      "bytes": 791,
+      "sha256": "82a611e3b59922f75db1e0aaa86a7113f92915e5e896315b47d6c59288510928"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/FXAAShader.js",
+      "bytes": 6815,
+      "sha256": "b8303d179f9d5d40a052483e8cfb49c29afb6e60396080e472a6950b51700dac"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/FilmShader.js",
+      "bytes": 1227,
+      "sha256": "744c619c70f949af5d3f0f9edb27573743ab9ad12869e7c306ffb3d0caff7bb5"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/FocusShader.js",
+      "bytes": 2467,
+      "sha256": "2171570ccc0ecf3977028bba803bd9eef0ea9a2715cbd610ed6dd0535a550bc9"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/FreiChenShader.js",
+      "bytes": 3153,
+      "sha256": "5b17d604dc9861f8a424ea07a89c225989e0c922bf2f7a083065fa19b3a8f355"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/GTAOShader.js",
+      "bytes": 12166,
+      "sha256": "cdea7be60452f61105375d2c18e4da2e8ce7b39a89246b1bb8fbf79319d58cfd"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/GammaCorrectionShader.js",
+      "bytes": 818,
+      "sha256": "e73c9ab25b0262c97838355701154c272c792b71f03756a1f7d504c4fca3ab25"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/HalftoneShader.js",
+      "bytes": 9187,
+      "sha256": "c3c75173fb0b539c7dfaf296770da520816b8bcf6263e185da0fb1fb35a11032"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/HorizontalBlurShader.js",
+      "bytes": 1667,
+      "sha256": "a155715ca3bfe4fd1f9efc51f189fecd5c53160df47dd571a7d5936dc436ab0c"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/HorizontalTiltShiftShader.js",
+      "bytes": 1792,
+      "sha256": "772f0865e95c4ecd7e6b016191b5d544d23ea4f048ff0efdc33898ee52fb3fa2"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/HueSaturationShader.js",
+      "bytes": 1678,
+      "sha256": "5b2f1ee9cdb847c6f8b3196cf9912f12eb1361706e312aa54d0c61578c9886df"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/KaleidoShader.js",
+      "bytes": 1194,
+      "sha256": "dfc1431e2e6b328c724c614a997e3496e9db027c0685f8a228f5b9003e65a81a"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/LuminosityHighPassShader.js",
+      "bytes": 1291,
+      "sha256": "5044f780b6e6cf863947f64c36fe1587132f7fbe395ada863cd1e5f0388dcf1e"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/LuminosityShader.js",
+      "bytes": 768,
+      "sha256": "32f164b72b1590a9be95be1ecc768fc496de4337370401267d104b12934d9a84"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/MirrorShader.js",
+      "bytes": 1066,
+      "sha256": "4d8002c804b34d135a54e773bf1808d813b67fc8b1eb688d87907293b1e1404a"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/NormalMapShader.js",
+      "bytes": 1165,
+      "sha256": "66273de182be159471d74beefdc303494c3e3b1d247af390f0882214d4bb8f9a"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/OutputShader.js",
+      "bytes": 1876,
+      "sha256": "353479f77a8d7e2629d49ccac9fc2f5dbfdda5442e0adf867b00377a2fcb0cb2"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/PoissonDenoiseShader.js",
+      "bytes": 7080,
+      "sha256": "61da074a9ad8b2139dd164c96b8b62c299f056ce06c216e1f707c5151d997602"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/RGBShiftShader.js",
+      "bytes": 1288,
+      "sha256": "69e7872f4719533013da7ca2a0bbbf9f369bc85a6efb6db76361a75fd4816b8b"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/SAOShader.js",
+      "bytes": 5313,
+      "sha256": "ca43e4a87db2d856ff6ad0f5466e3c92b132b520fe50133c9b708911ae473a5f"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/SMAAShader.js",
+      "bytes": 15002,
+      "sha256": "48ce320a6bf5c33806c4fa13ade7e3ab199f7856838d36b05ae82204db8a1c15"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/SSAOShader.js",
+      "bytes": 6968,
+      "sha256": "034dad98927ed8f2677a19ce56d4da1212ce5070ed2666157106025dc260bb55"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/SSRShader.js",
+      "bytes": 9891,
+      "sha256": "59dcf87b90af519cdeb66088957b72c6b79c7b95ef574b4cdeda788bf3f80822"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/SepiaShader.js",
+      "bytes": 1098,
+      "sha256": "b7994fb98e6f37bf163ae3454b61a837170449f9ebc2fee515c7b39481bcd16e"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/SobelOperatorShader.js",
+      "bytes": 2546,
+      "sha256": "553abd07b89b64eeacd67d99be66bd873d63b0dcedd4d5db76dfa8e66b697af9"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/SubsurfaceScatteringShader.js",
+      "bytes": 3264,
+      "sha256": "60d14b64cb46dfd51c0818949bd44f7d2c48e3fc12e3b5c6a769f1816a4cd9cd"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/TechnicolorShader.js",
+      "bytes": 1043,
+      "sha256": "76069639082a38869d7eff6d7f86ac31304ace10e44161085ec8f4563c73b617"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/ToonShader.js",
+      "bytes": 7147,
+      "sha256": "650cf00e7309e8721218e1cb92c1f1a5870a6161151e1cb54865dfaaa5de5014"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/TriangleBlurShader.js",
+      "bytes": 1461,
+      "sha256": "c0ce699bf1d5a10a5ad7cea1439a6f8f491a4ad274d9578caf247f5eb2fb0726"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/UnpackDepthRGBAShader.js",
+      "bytes": 972,
+      "sha256": "9307301a3d5e8c4b3ae2653b07b0b332567f5fee45774c4723160fd0ea132837"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/VelocityShader.js",
+      "bytes": 3173,
+      "sha256": "9511c43bd858727f82e1316e5c6861427e6279c764b053ac3a1033dc075fbf92"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/VerticalBlurShader.js",
+      "bytes": 1639,
+      "sha256": "67792abdf08ba2305fc2a2f45ca151f55b66a82f5aebbe45230246cdb72181d7"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/VerticalTiltShiftShader.js",
+      "bytes": 1779,
+      "sha256": "96bed3fafdea8370d1330dc9854f9d604a6def8554db554368c917ee66403742"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/VignetteShader.js",
+      "bytes": 1049,
+      "sha256": "5b122990efab55aa39ac5c72a09bc840e572773f5037b9127acfc8e31ee08b83"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/VolumeShader.js",
+      "bytes": 9284,
+      "sha256": "b1bd15947ccf8b5c5f38e599779775a32213d77354d4377154ff74a5dccf0082"
+    },
+    {
+      "path": "recipe/engine/vendor/three/examples/jsm/shaders/WaterRefractionShader.js",
+      "bytes": 2046,
+      "sha256": "cad67ed479d112d787281b1ab37561659a50d5fad6ad951a2d9f89a45f229cf5"
+    },
+    {
+      "path": "recipe/tools/jump-scan.mjs",
+      "bytes": 1482,
+      "sha256": "804bf68ad70c7343a3e6e8c3272c57917719493dc382879015448fbfd5d92504"
+    },
+    {
+      "path": "recipe/tools/make-manifest.mjs",
+      "bytes": 5289,
+      "sha256": "f0154d4207439c3217d429f4ec149fcb7edeb632f8846157584f6e0bd7434a29"
+    },
+    {
+      "path": "recipe/tools/paths.mjs",
+      "bytes": 1756,
+      "sha256": "807c5863fc56daf795fdeec1cd39b6e5f75ea9f5e0aee8c97bea5928ca58b834"
+    },
+    {
+      "path": "recipe/tools/render.mjs",
+      "bytes": 7939,
+      "sha256": "7096ead908d767a42f881f569de0b52e4fa63d853a66be52ed927eaba2c9d7b3"
+    },
+    {
+      "path": "recipe/tools/sfx-levels.py",
+      "bytes": 1662,
+      "sha256": "40cf54417a303ae0ced11738123a5b678b556f7e476211f7d0120aa409d606de"
+    },
+    {
+      "path": "recipe/tools/sound.py",
+      "bytes": 26531,
+      "sha256": "c5d75df2818c43ce8c746b01b839d2c2cb9fbb1f74128b81391c4a6009e004ea"
+    },
+    {
+      "path": "recipe/tools/storyboard-board.mjs",
+      "bytes": 12932,
+      "sha256": "4ccb828387d20d19681f4413e958fa467d41cf268153b128f96378bb823c2e01"
+    },
+    {
+      "path": "recipe/tools/voiceover.mjs",
+      "bytes": 4514,
+      "sha256": "e32a42656626c854370013b711233a41d7cbcc0e02be53521b28a3347907ca74"
+    },
+    {
+      "path": "references/engine-api.md",
+      "bytes": 4581,
+      "sha256": "02173902633858b9c7357d9ffce20efeb458c34ba26bb2476a9beeb8328f3ebb"
+    },
+    {
+      "path": "references/engine-notes.md",
+      "bytes": 6126,
+      "sha256": "c231c5d211a9f45d579a9950dabdea100e868579605390aa7d3137045a65c27d"
+    },
+    {
+      "path": "references/feedback-history.md",
+      "bytes": 2836,
+      "sha256": "5606355e2038d3e86e8a03014bb1f9f5b50527afef961eb446712bfa219bf453"
+    },
+    {
+      "path": "references/glitch-catalogue.md",
+      "bytes": 3643,
+      "sha256": "c3897214a9ecad696d143eb3edf21ec98af53ba244d4a266a7e3aff576bb63dd"
+    },
+    {
+      "path": "references/owner-direction.md",
+      "bytes": 2321,
+      "sha256": "0efc504f90d9f04a7949f353472bb831d65fc19339cfadeb914f0e7ba90e992d"
+    },
+    {
+      "path": "references/reference-study.md",
+      "bytes": 14130,
+      "sha256": "1052ae03474608afa9f43cf79fe240c8c2b05a276dbf127c056f54d09fc63d2d"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 12,
+      "sha256": "a83a2a4ed7ab2e022b9b8a83cfa2b8cf52cc243006c597e8b96f90a8365590ac"
+    },
+    {
+      "path": "skills/01-topic-to-film/SKILL.md",
+      "bytes": 5265,
+      "sha256": "96db73325821625fb78458caf7897fb2fbddc48e90d1360da965ef78f27440eb"
+    },
+    {
+      "path": "skills/02-script-and-retention/SKILL.md",
+      "bytes": 3923,
+      "sha256": "ab191c5df224a664578acc9690cc60dbf74c4e3eaf15112b12d8f9f7f927f9f5"
+    },
+    {
+      "path": "skills/03-voiceover-and-timing/SKILL.md",
+      "bytes": 3287,
+      "sha256": "76c0ac00318a36aef84361cbe8a91412bc6fedf9a09351188b36c0833bcb6b01"
+    },
+    {
+      "path": "skills/04-storyboard-and-shot-plan/SKILL.md",
+      "bytes": 4637,
+      "sha256": "c913a0722eba9346b6f46d304563bc1318ed6b1632bd18ec90701ef055d0029f"
+    },
+    {
+      "path": "skills/05-look-lighting-and-brand/SKILL.md",
+      "bytes": 4449,
+      "sha256": "cd77d6b8848b47cfba2008094a568c4e23cafe237f6617326a06a0176c71218f"
+    },
+    {
+      "path": "skills/06-characters-and-faces/SKILL.md",
+      "bytes": 4477,
+      "sha256": "57d720ca8a2db8c8b1c387eae60f6d0543f8696df8d8ef0056b3e4224a142265"
+    },
+    {
+      "path": "skills/07-motion-and-acting/SKILL.md",
+      "bytes": 3661,
+      "sha256": "657452ee0a6085133697b1a9d320713e72300410e2af383042546d1a7396945b"
+    },
+    {
+      "path": "skills/08-camera-and-transitions/SKILL.md",
+      "bytes": 2927,
+      "sha256": "5f50bcf122b6c2f503db2174e404180b89eefc8f2ca379274eb5cb443a2b11b1"
+    },
+    {
+      "path": "skills/09-facts-as-objects/SKILL.md",
+      "bytes": 3646,
+      "sha256": "22edead918a257d5301c76b772d695cccea4931602d3458485c568a06ef85aab"
+    },
+    {
+      "path": "skills/10-sets-and-props/SKILL.md",
+      "bytes": 4070,
+      "sha256": "726e83f6b049302ff202abf133ca8895d98ce126fabd0ce325266c922d45a401"
+    },
+    {
+      "path": "skills/11-captions-and-title-hook/SKILL.md",
+      "bytes": 4073,
+      "sha256": "d3c0481948e377757cce8568734a85a5bcfb43c6cea0092772bb4bb3426b8227"
+    },
+    {
+      "path": "skills/12-sound-design-and-mix/SKILL.md",
+      "bytes": 5667,
+      "sha256": "6bb979d31ff2cf3272856b92aeed7a37ff863d3f89b99f0a3cf222322236605f"
+    },
+    {
+      "path": "skills/13-render-and-quality-checks/SKILL.md",
+      "bytes": 4076,
+      "sha256": "6dfe41aa3524c47173e7f4a736c2d3d04ccc68e3a20ba91c22bfc374c1498fb8"
+    },
+    {
+      "path": "skills/14-review-rounds-and-learning/SKILL.md",
+      "bytes": 2904,
+      "sha256": "1d465c8050fa5b9bc65d327d8b37713c158455ac3770a0822e2a14b5d3fad2b7"
+    },
+    {
+      "path": "templates/new-film/README.md",
+      "bytes": 1464,
+      "sha256": "0d0fb817f7d74a3d89cf59489e0381b25dec493e0f3aa02568122d9541821f38"
+    },
+    {
+      "path": "templates/new-film/film.mjs",
+      "bytes": 8249,
+      "sha256": "e2da0a3bc41353272bdcfc573d97281c837a34f6dc1469cc8190bdb83f939249"
+    },
+    {
+      "path": "templates/new-topic-worksheet.md",
+      "bytes": 1104,
+      "sha256": "29168a5926caab6c9795254e5774c7b361dd10cd90c72b30f20f9984247dc724"
+    },
+    {
+      "path": "templates/round-review-template.md",
+      "bytes": 623,
+      "sha256": "f3c531c6681f23d99816b260e69ce5200a680ab4c0ea43e5b86936114947cec7"
+    },
+    {
+      "path": "templates/script-template.md",
+      "bytes": 546,
+      "sha256": "66299700f5872687586f12049a801d304412ae92021936138b510d2be3adf7a3"
+    },
+    {
+      "path": "templates/storyboard-template.md",
+      "bytes": 455,
+      "sha256": "464872d422d78bc5388e878242c9348cbd3b66a5de3a34aa2d742835418889fe"
+    },
+    {
+      "path": "templates/storyboard.json",
+      "bytes": 1433,
+      "sha256": "893c3c6574b072df2b016166c480d3e729df0dd38e2ff3eb663a98a5d71c7bb1"
+    }
+  ]
+}

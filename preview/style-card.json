@@ -1,0 +1,20 @@
+{
+  "id": "3d-cartoon-animation",
+  "name": "3D Cartoon Animation",
+  "package": "3d-cartoon-animation",
+  "version": "1.0.1",
+  "tagline": "Big-headed toon characters explain anything in 30-60 s: faces that swap on the word, numbers that land as objects, editorial captions and a sound on every action.",
+  "bestFor": ["history", "science", "how things work", "what happens when", "myth-busting"],
+  "format": { "width": 1080, "height": 1920, "fps": 30, "seconds": [30, 60] },
+  "poster": "../examples/how-gravity-was-found/final/poster.png",
+  "previewVideo": "../examples/how-gravity-was-found/final/How gravity was found - v3.mp4",
+  "storyboard": "../examples/how-gravity-was-found/final/storyboard.png",
+  "look": {
+    "faces": "skin tones",
+    "palette": ["#5B0D18", "#083B3A", "#8A4E2A", "#E7E3DD", "#1B1B1F"],
+    "highlight": "#E0394F",
+    "fonts": ["Helvetica Bold", "Editorial New Italic"]
+  },
+  "needs": ["a topic", "an ElevenLabs voice (or a recorded voiceover)"],
+  "approvedExample": "examples/how-gravity-was-found/final/How gravity was found - v3.mp4"
+}

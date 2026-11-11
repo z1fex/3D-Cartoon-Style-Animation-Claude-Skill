@@ -1,0 +1,2 @@
+# Keep every file byte-for-byte as published, so the SHA-256 list in package-manifest.json matches on every system.
+* -text

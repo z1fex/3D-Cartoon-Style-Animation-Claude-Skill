@@ -1,0 +1,80 @@
+  0.020  foley   pop       -24.0 dB
+  1.364  foley   rattle    -14.5 dB
+  1.364  foley   pop       -25.6 dB
+  1.889  foley   whoosh    -20.4 dB
+  2.241  foley   swish     -17.2 dB
+  2.421  foley   tap       -17.7 dB
+  3.854  foley   flip      -13.9 dB
+  4.074  foley   tick      -19.6 dB
+  4.925  foley   creak     -11.8 dB  dur 0.34
+  4.970  foley   whoosh    -19.3 dB
+  5.245  ACCENT  slam      -15.0 dB
+  5.622  foley   slap       -6.9 dB
+  6.459  foley   whoosh    -17.3 dB
+  6.610  foley   tick      -17.1 dB
+  6.668  foley   tick      -17.0 dB
+  6.726  foley   tick      -17.8 dB
+  6.806  foley   tick      -15.5 dB
+  6.876  foley   tick      -16.4 dB
+  7.923  foley   chirp     -32.4 dB
+  8.202  foley   chirp     -33.5 dB
+  8.987  foley   swish     -19.5 dB
+  9.743  ACCENT  thunk     -15.4 dB
+  9.810  foley   pop       -29.7 dB
+  9.963  foley   tap       -19.8 dB
+ 10.605  foley   swish     -23.9 dB
+ 10.898  foley   swish     -21.6 dB
+ 10.998  foley   click      -5.7 dB
+ 11.028  foley   light     -24.4 dB
+ 11.972  foley   slide     -29.7 dB
+ 12.442  ACCENT  boing     -24.9 dB
+ 12.848  foley   whoosh    -18.6 dB
+ 13.123  foley   stretch   -14.8 dB  dur 0.16
+ 13.243  ACCENT  twang     -15.5 dB
+ 14.535  foley   whir      -18.5 dB  dur 0.84
+ 15.373  ACCENT  twang     -18.5 dB
+ 15.439  foley   pop       -27.9 dB
+ 15.862  foley   whir      -15.4 dB  dur 1.01
+ 15.866  foley   tick      -19.8 dB
+ 15.937  foley   tick      -21.0 dB
+ 16.008  foley   tick      -20.6 dB
+ 16.079  foley   tick      -17.9 dB
+ 16.149  foley   tick      -18.4 dB
+ 16.220  foley   tick      -18.1 dB
+ 16.291  foley   tick      -20.5 dB
+ 16.362  foley   tick      -18.6 dB
+ 16.433  foley   tick      -20.7 dB
+ 16.504  foley   tick      -20.8 dB
+ 16.579  foley   tick      -19.6 dB
+ 16.670  foley   tick      -19.1 dB
+ 16.872  ACCENT  ding      -15.9 dB
+ 17.818  foley   whoosh    -18.7 dB
+ 17.969  foley   tick      -18.2 dB
+ 18.031  foley   tick      -18.0 dB
+ 18.094  foley   tick      -17.8 dB
+ 18.156  foley   tick      -18.1 dB
+ 18.219  foley   tick      -16.9 dB
+ 18.281  foley   tick      -16.4 dB
+ 18.344  foley   tick      -16.9 dB
+ 18.410  foley   tick      -16.1 dB
+ 18.473  foley   tick      -18.0 dB
+ 18.552  foley   tick      -16.2 dB
+ 18.633  foley   tap       -14.8 dB
+ 20.641  foley   swish     -20.0 dB
+ 20.711  foley   chalk     -15.6 dB  dur 0.26
+ 21.094  foley   chalk     -18.6 dB  dur 0.48
+ 21.717  foley   swish     -21.5 dB
+ 22.081  ACCENT  snip       -4.0 dB
+ 22.131  foley   pop       -26.6 dB
+ 22.627  foley   stretch   -16.1 dB  dur 0.26
+ 22.827  ACCENT  thud      -19.8 dB
+ 24.064  foley   whoosh    -19.4 dB
+ 24.445  foley   swish     -20.3 dB
+ 24.945  ACCENT  boing     -16.2 dB
+ 24.945  ACCENT  thud      -23.7 dB
+ 25.824  foley   roll      -22.3 dB  dur 0.90
+ 26.727  foley   tap       -15.6 dB
+ 26.777  foley   pop       -27.3 dB
+ 27.395  foley   swish     -22.8 dB
+ 28.018  foley   whoosh    -21.4 dB
+ 29.441  foley   pop       -26.2 dB

@@ -1,0 +1,18 @@
+# Installed by `npm install`
+node_modules/
+
+# Render output: keep it outside the package, or in a folder named out/
+out/
+**/out/
+
+# ElevenLabs download cache (regenerated from alignment.json)
+**/vo/raw.mp3
+**/vo/raw.wav
+
+# Your own brand font files are licensed to you: don't publish them
+recipe/engine/fonts/brand/*.otf
+recipe/engine/fonts/brand/*.ttf
+
+# Keys never go in files, but just in case
+.env
+.env.*

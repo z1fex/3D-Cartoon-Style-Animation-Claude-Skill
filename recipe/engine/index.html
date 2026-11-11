@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>3D Cartoon engine</title>
+<style>html, body { margin: 0; background: #1b1b1f; }</style>
+<script type="importmap">{ "imports": { "three": "./vendor/three/build/three.module.js", "three/addons/": "./vendor/three/examples/jsm/" } }</script>
+</head>
+<body>
+<script type="module">
+// Loads a film module (?film=/path/film.mjs) and exposes window.renderFrame(t) for the frame-exact renderer,
+// and window.framingLast() for the per-frame framing check.
+import { Studio, captionChunks, planCaptions, renderFilm, framing } from './core.mjs';
+const params = new URLSearchParams(location.search);
+/** Loads the first font file that exists; returns which one was used. */
+async function loadFont(family, descriptors, candidates) {
+  for (const [label, url] of candidates) {
+    try { const f = new FontFace(family, `url(${url})`, descriptors); await f.load(); document.fonts.add(f); return label; } catch { /* try the next file */ }
+  }
+  throw Error('No font file for ' + family);
+}
+try {
+  const fonts = {
+    sans: await loadFont('Brand Sans', { weight: '700' }, [['Helvetica Bold (brand)', './fonts/brand/Helvetica-Bold.otf'], ['Helvetica Bold (brand)', './fonts/brand/Helvetica-Bold.ttf'], ['TeX Gyre Heros Bold (stand-in for Helvetica)', './fonts/standin/texgyreheros-bold.otf']]),
+    serif: await loadFont('Brand Serif', { style: 'italic', weight: '400' }, [['Editorial New Italic (brand)', './fonts/brand/EditorialNew-Italic.otf'], ['Editorial New Italic (brand)', './fonts/brand/EditorialNew-Italic.ttf'], ['Instrument Serif Italic (stand-in for Editorial New)', './fonts/standin/InstrumentSerif-Italic.ttf']]),
+  };
+  for (const [fam, url] of [['Titan One', './fonts/TitanOne-Regular.ttf']]) { const f = new FontFace(fam, `url(${url})`); await f.load(); document.fonts.add(f); }
+  const studio = new Studio();
+  const film = await (await import(params.get('film'))).build(studio);
+  const captions = params.get('captions') === '0' ? null : film.captions ? planCaptions(film.words, film.captions) : captionChunks(film.words);
+  let last = null;
+  window.filmInfo = { duration: film.duration, fonts, shots: film.shots.map(s => ({ name: s.name, start: +s.start.toFixed(3) })), cues: film.cues ?? [], musicDrop: film.musicDrop ?? null };
+  window.renderFrame = (t, format = 'jpeg') => { last = renderFilm(studio, film, t, captions); return studio.out.toDataURL(format === 'png' ? 'image/png' : 'image/jpeg', 0.93).split(',')[1]; };
+  window.framingLast = () => last ? { shot: last.name, subjects: framing(studio, last) } : null;
+  window.ready = true;
+} catch (e) { window.loadError = String(e && e.stack || e); }
+</script>
+</body>
+</html>

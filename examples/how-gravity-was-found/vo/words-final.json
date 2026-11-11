@@ -1,0 +1,648 @@
+{
+ "duration": 30.235,
+ "tempo": 1.03,
+ "words": [
+  {
+   "text": "Everything",
+   "clean": "everything",
+   "start": 0,
+   "end": 0.372
+  },
+  {
+   "text": "you",
+   "clean": "you",
+   "start": 0.406,
+   "end": 0.474
+  },
+  {
+   "text": "know",
+   "clean": "know",
+   "start": 0.518,
+   "end": 0.643
+  },
+  {
+   "text": "about",
+   "clean": "about",
+   "start": 0.687,
+   "end": 0.856
+  },
+  {
+   "text": "this",
+   "clean": "this",
+   "start": 0.89,
+   "end": 1.015
+  },
+  {
+   "text": "apple",
+   "clean": "apple",
+   "start": 1.059,
+   "end": 1.285
+  },
+  {
+   "text": "is",
+   "clean": "is",
+   "start": 1.318,
+   "end": 1.398
+  },
+  {
+   "text": "wrong.",
+   "clean": "wrong",
+   "start": 1.431,
+   "end": 1.815
+  },
+  {
+   "text": "It",
+   "clean": "it",
+   "start": 2.009,
+   "end": 2.121
+  },
+  {
+   "text": "probably",
+   "clean": "probably",
+   "start": 2.155,
+   "end": 2.438
+  },
+  {
+   "text": "never",
+   "clean": "never",
+   "start": 2.494,
+   "end": 2.651
+  },
+  {
+   "text": "hit",
+   "clean": "hit",
+   "start": 2.697,
+   "end": 2.82
+  },
+  {
+   "text": "Newton's",
+   "clean": "newton's",
+   "start": 2.877,
+   "end": 3.17
+  },
+  {
+   "text": "head.",
+   "clean": "head",
+   "start": 3.204,
+   "end": 3.553
+  },
+  {
+   "text": "Sixteen",
+   "clean": "sixteen",
+   "start": 3.748,
+   "end": 4.131
+  },
+  {
+   "text": "sixty-six:",
+   "clean": "sixty-six",
+   "start": 4.187,
+   "end": 4.953
+  },
+  {
+   "text": "plague",
+   "clean": "plague",
+   "start": 5.05,
+   "end": 5.344
+  },
+  {
+   "text": "shuts",
+   "clean": "shuts",
+   "start": 5.378,
+   "end": 5.603
+  },
+  {
+   "text": "his",
+   "clean": "his",
+   "start": 5.637,
+   "end": 5.739
+  },
+  {
+   "text": "university,",
+   "clean": "university",
+   "start": 5.795,
+   "end": 6.437
+  },
+  {
+   "text": "so",
+   "clean": "so",
+   "start": 6.539,
+   "end": 6.64
+  },
+  {
+   "text": "Isaac,",
+   "clean": "isaac",
+   "start": 6.742,
+   "end": 7.091
+  },
+  {
+   "text": "twenty-three,",
+   "clean": "twenty-three",
+   "start": 7.114,
+   "end": 7.688
+  },
+  {
+   "text": "is",
+   "clean": "is",
+   "start": 7.711,
+   "end": 7.79
+  },
+  {
+   "text": "stuck",
+   "clean": "stuck",
+   "start": 7.823,
+   "end": 8.004
+  },
+  {
+   "text": "on",
+   "clean": "on",
+   "start": 8.05,
+   "end": 8.117
+  },
+  {
+   "text": "the",
+   "clean": "the",
+   "start": 8.15,
+   "end": 8.218
+  },
+  {
+   "text": "family",
+   "clean": "family",
+   "start": 8.252,
+   "end": 8.512
+  },
+  {
+   "text": "farm.",
+   "clean": "farm",
+   "start": 8.568,
+   "end": 8.984
+  },
+  {
+   "text": "An",
+   "clean": "an",
+   "start": 9.179,
+   "end": 9.291
+  },
+  {
+   "text": "apple",
+   "clean": "apple",
+   "start": 9.325,
+   "end": 9.528
+  },
+  {
+   "text": "drops",
+   "clean": "drops",
+   "start": 9.562,
+   "end": 9.765
+  },
+  {
+   "text": "beside",
+   "clean": "beside",
+   "start": 9.81,
+   "end": 10.125
+  },
+  {
+   "text": "him.",
+   "clean": "him",
+   "start": 10.159,
+   "end": 10.407
+  },
+  {
+   "text": "Why",
+   "clean": "why",
+   "start": 10.601,
+   "end": 10.77
+  },
+  {
+   "text": "straight",
+   "clean": "straight",
+   "start": 10.838,
+   "end": 11.097
+  },
+  {
+   "text": "down?",
+   "clean": "down",
+   "start": 11.131,
+   "end": 11.525
+  },
+  {
+   "text": "Why",
+   "clean": "why",
+   "start": 11.672,
+   "end": 11.841
+  },
+  {
+   "text": "never",
+   "clean": "never",
+   "start": 11.909,
+   "end": 12.078
+  },
+  {
+   "text": "sideways?",
+   "clean": "sideways",
+   "start": 12.122,
+   "end": 12.753
+  },
+  {
+   "text": "The",
+   "clean": "the",
+   "start": 12.948,
+   "end": 13.049
+  },
+  {
+   "text": "Earth",
+   "clean": "earth",
+   "start": 13.127,
+   "end": 13.342
+  },
+  {
+   "text": "pulls",
+   "clean": "pulls",
+   "start": 13.376,
+   "end": 13.613
+  },
+  {
+   "text": "it,",
+   "clean": "it",
+   "start": 13.669,
+   "end": 13.816
+  },
+  {
+   "text": "he",
+   "clean": "he",
+   "start": 13.872,
+   "end": 13.939
+  },
+  {
+   "text": "says,",
+   "clean": "says",
+   "start": 13.984,
+   "end": 14.334
+  },
+  {
+   "text": "and",
+   "clean": "and",
+   "start": 14.435,
+   "end": 14.525
+  },
+  {
+   "text": "the",
+   "clean": "the",
+   "start": 14.559,
+   "end": 14.627
+  },
+  {
+   "text": "same",
+   "clean": "same",
+   "start": 14.66,
+   "end": 14.829
+  },
+  {
+   "text": "pull",
+   "clean": "pull",
+   "start": 14.863,
+   "end": 15.021
+  },
+  {
+   "text": "reaches",
+   "clean": "reaches",
+   "start": 15.089,
+   "end": 15.359
+  },
+  {
+   "text": "the",
+   "clean": "the",
+   "start": 15.405,
+   "end": 15.472
+  },
+  {
+   "text": "Moon,",
+   "clean": "moon",
+   "start": 15.506,
+   "end": 15.811
+  },
+  {
+   "text": "two",
+   "clean": "two",
+   "start": 15.912,
+   "end": 16.047
+  },
+  {
+   "text": "hundred",
+   "clean": "hundred",
+   "start": 16.092,
+   "end": 16.295
+  },
+  {
+   "text": "and",
+   "clean": "and",
+   "start": 16.317,
+   "end": 16.385
+  },
+  {
+   "text": "forty",
+   "clean": "forty",
+   "start": 16.418,
+   "end": 16.621
+  },
+  {
+   "text": "thousand",
+   "clean": "thousand",
+   "start": 16.667,
+   "end": 16.96
+  },
+  {
+   "text": "miles",
+   "clean": "miles",
+   "start": 17.005,
+   "end": 17.253
+  },
+  {
+   "text": "away.",
+   "clean": "away",
+   "start": 17.286,
+   "end": 17.704
+  },
+  {
+   "text": "For",
+   "clean": "for",
+   "start": 17.898,
+   "end": 17.999
+  },
+  {
+   "text": "two",
+   "clean": "two",
+   "start": 18.033,
+   "end": 18.135
+  },
+  {
+   "text": "hundred",
+   "clean": "hundred",
+   "start": 18.168,
+   "end": 18.383
+  },
+  {
+   "text": "and",
+   "clean": "and",
+   "start": 18.405,
+   "end": 18.473
+  },
+  {
+   "text": "fifty",
+   "clean": "fifty",
+   "start": 18.507,
+   "end": 18.71
+  },
+  {
+   "text": "years,",
+   "clean": "years",
+   "start": 18.766,
+   "end": 19.126
+  },
+  {
+   "text": "that",
+   "clean": "that",
+   "start": 19.223,
+   "end": 19.382
+  },
+  {
+   "text": "was",
+   "clean": "was",
+   "start": 19.416,
+   "end": 19.517
+  },
+  {
+   "text": "gravity.",
+   "clean": "gravity",
+   "start": 19.561,
+   "end": 20.125
+  },
+  {
+   "text": "Then",
+   "clean": "then",
+   "start": 20.319,
+   "end": 20.466
+  },
+  {
+   "text": "Einstein",
+   "clean": "einstein",
+   "start": 20.511,
+   "end": 20.85
+  },
+  {
+   "text": "rewrote",
+   "clean": "rewrote",
+   "start": 20.894,
+   "end": 21.221
+  },
+  {
+   "text": "it.",
+   "clean": "it",
+   "start": 21.255,
+   "end": 21.503
+  },
+  {
+   "text": "There",
+   "clean": "there",
+   "start": 21.697,
+   "end": 21.854
+  },
+  {
+   "text": "is",
+   "clean": "is",
+   "start": 21.888,
+   "end": 21.956
+  },
+  {
+   "text": "no",
+   "clean": "no",
+   "start": 22.013,
+   "end": 22.091
+  },
+  {
+   "text": "pull.",
+   "clean": "pull",
+   "start": 22.148,
+   "end": 22.486
+  },
+  {
+   "text": "Mass",
+   "clean": "mass",
+   "start": 22.667,
+   "end": 22.904
+  },
+  {
+   "text": "bends",
+   "clean": "bends",
+   "start": 22.96,
+   "end": 23.208
+  },
+  {
+   "text": "space",
+   "clean": "space",
+   "start": 23.242,
+   "end": 23.489
+  },
+  {
+   "text": "and",
+   "clean": "and",
+   "start": 23.513,
+   "end": 23.602
+  },
+  {
+   "text": "time,",
+   "clean": "time",
+   "start": 23.648,
+   "end": 24.042
+  },
+  {
+   "text": "like",
+   "clean": "like",
+   "start": 24.144,
+   "end": 24.29
+  },
+  {
+   "text": "a",
+   "clean": "a",
+   "start": 24.313,
+   "end": 24.335
+  },
+  {
+   "text": "bowling",
+   "clean": "bowling",
+   "start": 24.38,
+   "end": 24.617
+  },
+  {
+   "text": "ball",
+   "clean": "ball",
+   "start": 24.65,
+   "end": 24.809
+  },
+  {
+   "text": "on",
+   "clean": "on",
+   "start": 24.853,
+   "end": 24.921
+  },
+  {
+   "text": "a",
+   "clean": "a",
+   "start": 24.955,
+   "end": 24.978
+  },
+  {
+   "text": "trampoline,",
+   "clean": "trampoline",
+   "start": 25.012,
+   "end": 25.575
+  },
+  {
+   "text": "and",
+   "clean": "and",
+   "start": 25.687,
+   "end": 25.789
+  },
+  {
+   "text": "the",
+   "clean": "the",
+   "start": 25.823,
+   "end": 25.89
+  },
+  {
+   "text": "apple",
+   "clean": "apple",
+   "start": 25.924,
+   "end": 26.127
+  },
+  {
+   "text": "just",
+   "clean": "just",
+   "start": 26.161,
+   "end": 26.285
+  },
+  {
+   "text": "rolls",
+   "clean": "rolls",
+   "start": 26.33,
+   "end": 26.567
+  },
+  {
+   "text": "into",
+   "clean": "into",
+   "start": 26.601,
+   "end": 26.714
+  },
+  {
+   "text": "the",
+   "clean": "the",
+   "start": 26.758,
+   "end": 26.826
+  },
+  {
+   "text": "dent.",
+   "clean": "dent",
+   "start": 26.86,
+   "end": 27.254
+  },
+  {
+   "text": "So",
+   "clean": "so",
+   "start": 27.449,
+   "end": 27.583
+  },
+  {
+   "text": "yes:",
+   "clean": "yes",
+   "start": 27.628,
+   "end": 28.001
+  },
+  {
+   "text": "everything",
+   "clean": "everything",
+   "start": 28.098,
+   "end": 28.425
+  },
+  {
+   "text": "you",
+   "clean": "you",
+   "start": 28.459,
+   "end": 28.526
+  },
+  {
+   "text": "know",
+   "clean": "know",
+   "start": 28.56,
+   "end": 28.684
+  },
+  {
+   "text": "about",
+   "clean": "about",
+   "start": 28.729,
+   "end": 28.887
+  },
+  {
+   "text": "this",
+   "clean": "this",
+   "start": 28.921,
+   "end": 29.046
+  },
+  {
+   "text": "apple",
+   "clean": "apple",
+   "start": 29.09,
+   "end": 29.316
+  },
+  {
+   "text": "is",
+   "clean": "is",
+   "start": 29.361,
+   "end": 29.474
+  },
+  {
+   "text": "wrong.",
+   "clean": "wrong",
+   "start": 29.508,
+   "end": 29.992
+  }
+ ]
+}

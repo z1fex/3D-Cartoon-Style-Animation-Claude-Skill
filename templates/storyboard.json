@@ -1,0 +1,34 @@
+{
+ "title": "<Title> v<n> · storyboard <k>",
+ "file": "<Title> v<n> - storyboard <k>",
+ "duration": 13.5,
+ "size": "1080×1920",
+ "bpm": 72,
+ "story": "<the story in one sentence: what the speaker means, from the hook to the payoff>",
+ "intro": [
+  "What the edit is, in one or two plain sentences. The speech stays exactly as recorded.",
+  "What is kept from the last version, and what is new.",
+  "Nothing is rendered until you approve this board."
+ ],
+ "questions": [
+  "One decision for the owner, with the option the board shows first? Or the other one?"
+ ],
+ "panels": [
+  {
+   "t": [0, 1.7], "title": "<a short title>", "tag": "new", "words": "<the words this beat covers>",
+   "frame": "frames/p1-f040.png",
+   "explains": "<which part of the story this beat carries, and how its picture explains it>",
+   "sound": "<the effects, in plain words>",
+   "motion": "<what moves> → <what happens next> → <the hand-over into the next beat>"
+  },
+  {
+   "t": [1.7, 4.0], "title": "<a transition the owner must see>", "tag": "new", "words": "<the words>",
+   "frame": "frames/p2-f070.png",
+   "strip": [["frames/p2-f066.png", "2.20 s"], ["frames/p2-f070.png", "2.33 s"], ["frames/p2-f074.png", "2.47 s"]],
+   "explains": "<the part of the story, and how the picture explains it>",
+   "sound": "<the effects>",
+   "motion": "<the transition, frame by frame>",
+   "alt": "<optional: an alternative the owner can choose>"
+  }
+ ]
+}
