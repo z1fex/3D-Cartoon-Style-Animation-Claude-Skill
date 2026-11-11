@@ -16,6 +16,7 @@ The example film, **"How gravity was found"**, is in [`examples/how-gravity-was-
 | `recipe/tools/` | The tools: render, voice, sound and music, the storyboard board, the quality checks. |
 | `templates/` | A starter film for any topic, and the worksheets. |
 | `examples/how-gravity-was-found/` | The approved film with its source, script, storyboard, voice, sound list and earlier versions. |
+| [`brand/`](brand/README.md) | **The colours and fonts** of the approved film, all included: hex codes, the font files, and a one-page style sheet. |
 | `references/` | How the style works, the glitch catalogue, the engine reference, the feedback history. |
 | `evaluation/` | The delivery checklist, what "done" means, and what the style can't do yet. |
 
@@ -72,8 +73,19 @@ In these files, **"the owner" means you:** the person the films are made for, wh
 
 ## Make it yours
 
-- **Colours:** the five brand colours are in `BRAND` in [`recipe/engine/core.mjs`](recipe/engine/core.mjs). Skill 5 explains where each one is used.
-- **Fonts:** the captions are designed for Helvetica Bold and Editorial New Italic. They are not included, because both need a licence. Free stand-ins are used until you add your own licensed files to `recipe/engine/fonts/brand/` (see the README there). Every render prints which fonts it used.
+The colours and fonts of the approved film come with the package, so there is nothing extra to download.
+
+<img src="brand/style-sheet.png" width="540" alt="The style's six colours and three fonts">
+
+- **Colours:**
+  - Rouge Noir `#5B0D18`, Blue Coral `#083B3A`, Cognac `#8A4E2A`, White Sand `#E7E3DD` and Anthracite `#1B1B1F`, plus Brand Red `#E0394F` for the italic caption words.
+  - The engine uses them from `BRAND` in [`recipe/engine/core.mjs`](recipe/engine/core.mjs). To change a colour, follow [`brand/README.md`](brand/README.md).
+- **Fonts** (included, free to use and share):
+  - TeX Gyre Heros Bold for the caption capitals;
+  - Instrument Serif Italic for the italic words;
+  - Titan One for labels on props.
+  - To use them in other apps, install the files from `recipe/engine/fonts/`.
+  - If you own Helvetica Bold and Editorial New Italic, which the captions were designed around, you can add them instead ([`brand/README.md`](brand/README.md)).
 - **Voice:** set your ElevenLabs key only for the one command (`ELEVENLABS_API_KEY=… node recipe/tools/voiceover.mjs examples/<slug>`). Never write it into a file. Any ElevenLabs voice works.
 
 ## Credits and licences

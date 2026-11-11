@@ -13,7 +13,9 @@
     "faces": "skin tones",
     "palette": ["#5B0D18", "#083B3A", "#8A4E2A", "#E7E3DD", "#1B1B1F"],
     "highlight": "#E0394F",
-    "fonts": ["Helvetica Bold", "Editorial New Italic"]
+    "fonts": ["TeX Gyre Heros Bold", "Instrument Serif Italic", "Titan One"],
+    "fontsDesignedFor": ["Helvetica Bold", "Editorial New Italic"],
+    "kit": "../brand/palette.json"
   },
   "needs": ["a topic", "an ElevenLabs voice (or a recorded voiceover)"],
   "approvedExample": "examples/how-gravity-was-found/final/How gravity was found - v3.mp4"

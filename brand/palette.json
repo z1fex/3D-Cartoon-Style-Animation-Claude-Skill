@@ -1,0 +1,21 @@
+{
+  "name": "3D Cartoon Animation: colours and fonts",
+  "source": "The colours and fonts of the approved film \"How gravity was found\". The engine's own values are BRAND and HIGHLIGHT in recipe/engine/core.mjs; recipe/tools/style-sheet.mjs checks that this file matches them.",
+  "colours": [
+    { "id": "rougeNoir", "name": "Rouge Noir", "hex": "#5B0D18", "use": "the hero's clothes, roofs, doors, the title-hook box, counter labels" },
+    { "id": "blueCoral", "name": "Blue Coral", "hex": "#083B3A", "use": "a second character's clothes (lifted so it doesn't read as black), leaves, water-like sets" },
+    { "id": "cognac", "name": "Cognac", "hex": "#8A4E2A", "use": "wood: trees, fences, frames, desks, shoes" },
+    { "id": "whiteSand", "name": "White Sand", "hex": "#E7E3DD", "use": "walls, paper, the caption and title text" },
+    { "id": "anthracite", "name": "Anthracite", "hex": "#1B1B1F", "use": "ink outlines, limbs, dark trousers" },
+    { "id": "highlight", "name": "Brand Red", "hex": "#E0394F", "use": "the italic caption words: Rouge Noir lifted so it reads on any background (same hue)" }
+  ],
+  "fonts": [
+    { "role": "caption and title capitals", "name": "TeX Gyre Heros Bold", "note": "a free Helvetica-style sans", "file": "recipe/engine/fonts/standin/texgyreheros-bold.otf", "licence": "GUST Font License", "licenceFile": "recipe/engine/fonts/standin/GUST-FONT-LICENSE.txt" },
+    { "role": "the italic words in captions and the title", "name": "Instrument Serif Italic", "note": "a free editorial serif", "file": "recipe/engine/fonts/standin/InstrumentSerif-Italic.ttf", "licence": "SIL Open Font License 1.1", "licenceFile": "recipe/engine/fonts/standin/InstrumentSerif-OFL.txt" },
+    { "role": "labels on props: counters, calendars, signs", "name": "Titan One", "note": "a free rounded display face", "file": "recipe/engine/fonts/TitanOne-Regular.ttf", "licence": "SIL Open Font License 1.1", "licenceFile": "recipe/engine/fonts/TitanOne-OFL.txt" }
+  ],
+  "alsoIncluded": [
+    { "name": "TeX Gyre Heros Regular", "file": "recipe/engine/fonts/standin/texgyreheros-regular.otf" },
+    { "name": "Instrument Serif Regular", "file": "recipe/engine/fonts/standin/InstrumentSerif-Regular.ttf" }
+  ]
+}

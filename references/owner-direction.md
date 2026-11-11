@@ -17,7 +17,7 @@ Everything the owner has asked for, in their terms, with where each rule lives. 
 - **No visual glitches.** Watch every bit of the video before delivering it. (skill 13)
 
 ## Text
-- Font combination: **Helvetica + Editorial New**, brand colours for highlights. (skill 11)
+- Font combination: **Helvetica + Editorial New**, brand colours for highlights. The approved film uses the included free look-alikes, TeX Gyre Heros and Instrument Serif; licensed files can replace them. (skill 11, `brand/`)
 - Caption style: **editorial lockups** like the owner's books reel ("THEY ALL read books"): big white capitals with red italic serif words tucked under them. Not TikTok-style black-and-white captions, not pills. (skill 11)
 
 ## Sound

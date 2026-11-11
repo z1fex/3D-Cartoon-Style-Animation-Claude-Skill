@@ -10,6 +10,6 @@ What the style cannot do yet, and what would fix it.
 | Sets are lighter than the reference's | fewer small details per place | keep adding props to `props2.mjs`; every new film adds to the library |
 | Music is synthesised | a pleasant marimba bed, not a produced track | the owner can supply a licensed track; the mix handles it |
 | Effects are synthesised | they read well as cartoon foley; not recordings | earshot's fitted-recording approach or a licensed library could replace individual types |
-| Fonts are stand-ins until licensed | TeX Gyre Heros and Instrument Serif instead of Helvetica and Editorial New | drop the licensed files into `recipe/engine/fonts/brand/` |
+| Captions use free look-alikes | the included TeX Gyre Heros and Instrument Serif stand in for Helvetica and Editorial New, which are paid fonts | if you own them, drop the files into `recipe/engine/fonts/brand/` |
 | Tested on Windows only | the tools pick the right GPU setting for Windows, macOS and Linux, but only Windows 11 has been tried | if a render is black or very slow, set `CARTOON_CHROME` to a desktop Chrome, or try another `--use-angle` value in `recipe/tools/paths.mjs` |
 | Length | proven at 30 s | 50–60 s needs no new method, only more shots |

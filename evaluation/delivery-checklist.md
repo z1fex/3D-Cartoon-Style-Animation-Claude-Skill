@@ -8,7 +8,7 @@ Tick every line before a video goes to the owner.
 - [ ] Every caption matches the spoken words; the meaning word is big, the surprising word is red italic.
 - [ ] Every claim is in the source table; disagreements are hedged.
 - [ ] The last line loops into the first frame.
-- [ ] The render log names the fonts used (brand or stand-ins), and the owner is told which.
+- [ ] The render log names the fonts used (the included ones or licensed brand files), and the owner is told which.
 
 ## Picture
 - [ ] Framing report: no issues except intended ones (named in the round notes).

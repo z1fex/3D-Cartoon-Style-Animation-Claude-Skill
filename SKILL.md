@@ -1,6 +1,6 @@
 ---
 name: 3d-cartoon-animation
-description: Make vertical 3D cartoon explainer shorts (30-60 s, 9:16) on any topic. Big-headed toon characters live a story told to "you"; painted faces swap through blinks; the camera never stops; every spoken number lands as a physical object; editorial captions (Helvetica Bold + Editorial New Italic in brand red); a topic question at the top; a designed sound on every action. Use for history, science, tech, "how it works" and "what happens when" explainers.
+description: Make vertical 3D cartoon explainer shorts (30-60 s, 9:16) on any topic. Big-headed toon characters live a story told to "you"; painted faces swap through blinks; the camera never stops; every spoken number lands as a physical object; editorial captions (bold sans capitals + italic serif words in brand red, fonts included); a topic question at the top; a designed sound on every action. Use for history, science, tech, "how it works" and "what happens when" explainers.
 version: 1.0.1
 ---
 
@@ -56,7 +56,7 @@ Do the steps in this order. Steps 4–11 all happen inside one file per film (`f
 6. **Every visible action has a sound; no sound without an action.**
 7. **Every frame is checked** (automatic framing check and jump scan, then by eye) before the owner sees it.
 8. **Facts are sourced.** When sources disagree, hedge in plain words.
-9. **The owner's brand:** skin-tone faces, the five brand colours, Helvetica Bold + Editorial New Italic (the licensed files when present, stand-ins until then, and say which).
+9. **The owner's brand:** skin-tone faces, the five brand colours plus Brand Red, and the included fonts: TeX Gyre Heros Bold + Instrument Serif Italic for captions, Titan One for labels (or licensed Helvetica Bold + Editorial New Italic if the owner adds them; say which). All in [brand/](brand/README.md).
 
 ## Quick start for a new topic
 
@@ -85,6 +85,7 @@ Do the steps in this order. Steps 4–11 all happen inside one file per film (`f
 | `templates/` | `new-film/film.mjs` (a topic-neutral starter that runs on draft timing) and the worksheets |
 | `examples/how-gravity-was-found/` | the approved film: source, voice, final video, storyboard, cue sheet, stems, earlier versions |
 | `references/` | the reference study, the owner's direction, the engine API, the glitch catalogue, feedback history, engine notes |
+| `brand/` | the colours and fonts of the approved film: `palette.json`, `palette.css`, `style-sheet.png` (drawn by `recipe/tools/style-sheet.mjs`) |
 | `evaluation/` | delivery checklist, acceptance criteria, known limits |
 | `preview/` | `style-card.json`: the style's name, look and format in one card, pointing at the example's poster, film and storyboard |
 

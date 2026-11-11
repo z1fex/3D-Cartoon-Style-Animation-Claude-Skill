@@ -76,9 +76,7 @@
     },
     {
       "id": "11",
-      "name": "captions-and-title-hook",
-      "path": "skills/11-captions-and-title-hook/SKILL.md",
-      "description": "Write and lay out the on-screen text of a 3D Cartoon Animation film - the topic question at the top for the first 2-3 seconds, and editorial caption lockups (Helvetica Bold capitals + Editorial New Italic in brand red, stacked, mixed sizes, word-by-word reveal). Use after the script and voice timings exist."
+      "path": "skills/11-captions-and-title-hook/SKILL.md"
     },
     {
       "id": "12",
@@ -133,9 +131,15 @@
       ],
       "highlight": "#E0394F",
       "fonts": [
+        "TeX Gyre Heros Bold",
+        "Instrument Serif Italic",
+        "Titan One"
+      ],
+      "fontsDesignedFor": [
         "Helvetica Bold",
         "Editorial New Italic"
-      ]
+      ],
+      "kit": "../brand/palette.json"
     },
     "needs": [
       "a topic",
@@ -165,6 +169,14 @@
     "evaluation/acceptance-criteria.md",
     "evaluation/known-limits.md"
   ],
+  "brand_kit": {
+    "readme": "brand/README.md",
+    "palette": "brand/palette.json",
+    "css": "brand/palette.css",
+    "sheet": "brand/style-sheet.png",
+    "drawnBy": "recipe/tools/style-sheet.mjs",
+    "fontsIncluded": true
+  },
   "examples": [
     {
       "slug": "how-gravity-was-found",
@@ -189,9 +201,9 @@
   "licences": {
     "three.js r186": "MIT",
     "Titan One": "SIL OFL 1.1",
-    "TeX Gyre Heros (Helvetica stand-in)": "GUST Font License",
-    "Instrument Serif (Editorial New stand-in)": "SIL OFL 1.1",
-    "Helvetica / Editorial New": "not included; licensed files go in recipe/engine/fonts/brand/",
+    "TeX Gyre Heros (included; caption capitals)": "GUST Font License",
+    "Instrument Serif (included; italic caption words)": "SIL OFL 1.1",
+    "Helvetica / Editorial New": "optional paid fonts, not included; licensed files go in recipe/engine/fonts/brand/",
     "music and effects": "synthesised in code; effect design after earshot docs (MIT)"
   },
   "excluded": "The reference tutorial's video, transcript and frame sheets (the creator's material) are not included; references/reference-study.md is our own summary, with credit.",
@@ -220,28 +232,48 @@
     },
     {
       "path": "README.md",
-      "bytes": 5310,
-      "sha256": "8b217a1600907fc5044fea0ed31f737f0bcc8f6c4e45b919b21eba93e3e67f13"
+      "bytes": 6078,
+      "sha256": "bae55539e5d4e62dfea3cfe1083f092bd58a005253631535ff8d2dc1bddc5ed7"
     },
     {
       "path": "SKILL.md",
-      "bytes": 9560,
-      "sha256": "d6cc727c29825b4a2302cc19928e2144f16f309e4abf9acf3628a29b513f8b18"
+      "bytes": 9961,
+      "sha256": "5765fcfed780611ffc1328b19097601fd26550dc7287c48954528d27c248601f"
+    },
+    {
+      "path": "brand/README.md",
+      "bytes": 3014,
+      "sha256": "ddc5ef657883d04519e43bf3505e4b3293e6fdc8d3c0e1d930188439fa63fcb9"
+    },
+    {
+      "path": "brand/palette.css",
+      "bytes": 1146,
+      "sha256": "3ecc4e46c36cc313883a27ce4bae2b2a9cb71cc51938fa62b2087c6289cea1bf"
+    },
+    {
+      "path": "brand/palette.json",
+      "bytes": 2230,
+      "sha256": "920e99c40ef71b1dfee2a69a16426d50b82b1b7cb6448624050719ba6bee8e91"
+    },
+    {
+      "path": "brand/style-sheet.png",
+      "bytes": 292572,
+      "sha256": "73c9dffbc48aeca6070ce970086a82076742caa7229789905e8b271bb99125f9"
     },
     {
       "path": "evaluation/acceptance-criteria.md",
-      "bytes": 1117,
-      "sha256": "6db7f08c1d1691b75e7c50e640d1fa6bbe74e4c011f328350e680bddd89cfcef"
+      "bytes": 1164,
+      "sha256": "757223e6ac5c2981bc9ec018556a27cdf578d13892a604eeddae1772db7e6940"
     },
     {
       "path": "evaluation/delivery-checklist.md",
-      "bytes": 1747,
-      "sha256": "b88d0d63e03b6b4ba59f4c8157165cdf478fbb3d673b8e64ba5ffcc1ba4c8d4b"
+      "bytes": 1770,
+      "sha256": "789b44eec5777a4e12b20739cf436c9de92c40bf5d311d0c0e45cbdc88552917"
     },
     {
       "path": "evaluation/known-limits.md",
-      "bytes": 1654,
-      "sha256": "989f8dd23b0007eca1b5bc1a2a43eeca1eff46a9e32b36264ea6e484299ebc38"
+      "bytes": 1709,
+      "sha256": "3dc4fcd72a2c82501dbb13bebbdec04b4335c7d9cde822aa9239933b5f594ec7"
     },
     {
       "path": "examples/how-gravity-was-found/README.md",
@@ -365,8 +397,8 @@
     },
     {
       "path": "preview/style-card.json",
-      "bytes": 1076,
-      "sha256": "bad239703b496cf681533478c6b3a76ed043621020267b4216234ff2a81d1063"
+      "bytes": 1223,
+      "sha256": "d4951eab306176cc0c522e181530ebbccd7031f48ff5fbc07cb7d9cb53750743"
     },
     {
       "path": "recipe/engine/character.mjs",
@@ -395,8 +427,8 @@
     },
     {
       "path": "recipe/engine/fonts/brand/README.txt",
-      "bytes": 468,
-      "sha256": "4d86b449eac849a015af186799468b2869064f5107f57fed14c673f68b99a12c"
+      "bytes": 703,
+      "sha256": "336e9128dea7f98b079c23533ce8b9751375f2834c1aed4af056c0f660268f95"
     },
     {
       "path": "recipe/engine/fonts/standin/GUST-FONT-LICENSE.txt",
@@ -430,8 +462,8 @@
     },
     {
       "path": "recipe/engine/index.html",
-      "bytes": 2696,
-      "sha256": "970d1d63257915550252f1d574c3e4b33814f8a1f14f6d60ad98471683e8dbc8"
+      "bytes": 2741,
+      "sha256": "c92e47ff18bcbdaec8a2eba021c32e3a0787b637a3d5d2828fa66cf2beed081d"
     },
     {
       "path": "recipe/engine/kit.mjs",
@@ -935,8 +967,8 @@
     },
     {
       "path": "recipe/tools/make-manifest.mjs",
-      "bytes": 5289,
-      "sha256": "f0154d4207439c3217d429f4ec149fcb7edeb632f8846157584f6e0bd7434a29"
+      "bytes": 5522,
+      "sha256": "72b80914488929c84be1c3267bf680751eb9d0e0f0aaa7ca4d5bf79ae3386081"
     },
     {
       "path": "recipe/tools/paths.mjs",
@@ -964,6 +996,11 @@
       "sha256": "4ccb828387d20d19681f4413e958fa467d41cf268153b128f96378bb823c2e01"
     },
     {
+      "path": "recipe/tools/style-sheet.mjs",
+      "bytes": 6557,
+      "sha256": "65f1be5254a5e631d79359660b8dd80ece9aa5b1e777303feb8e26a4cbfa70f3"
+    },
+    {
       "path": "recipe/tools/voiceover.mjs",
       "bytes": 4514,
       "sha256": "e32a42656626c854370013b711233a41d7cbcc0e02be53521b28a3347907ca74"
@@ -980,8 +1017,8 @@
     },
     {
       "path": "references/feedback-history.md",
-      "bytes": 2836,
-      "sha256": "5606355e2038d3e86e8a03014bb1f9f5b50527afef961eb446712bfa219bf453"
+      "bytes": 3056,
+      "sha256": "46f41c044d39b3ce1b9add0292d719ab1dc30451c2ea1386930a8e27a02529a3"
     },
     {
       "path": "references/glitch-catalogue.md",
@@ -990,8 +1027,8 @@
     },
     {
       "path": "references/owner-direction.md",
-      "bytes": 2321,
-      "sha256": "0efc504f90d9f04a7949f353472bb831d65fc19339cfadeb914f0e7ba90e992d"
+      "bytes": 2455,
+      "sha256": "e31664a8c7edc0718745b54f4f9515ee650bd1d7e066527afc1a91c52deea4ee"
     },
     {
       "path": "references/reference-study.md",
@@ -1055,8 +1092,8 @@
     },
     {
       "path": "skills/11-captions-and-title-hook/SKILL.md",
-      "bytes": 4073,
-      "sha256": "d3c0481948e377757cce8568734a85a5bcfb43c6cea0092772bb4bb3426b8227"
+      "bytes": 4324,
+      "sha256": "e7d39916a828d75a430460749184e64dc629d2fb9c8c0f717a2d4db44ce93ee9"
     },
     {
       "path": "skills/12-sound-design-and-mix/SKILL.md",

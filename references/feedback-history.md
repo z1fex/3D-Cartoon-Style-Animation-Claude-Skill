@@ -24,4 +24,5 @@
 - The tools find FFmpeg on the PATH and use Playwright's own Chromium, with the right GPU setting for Windows, macOS or Linux; the contact sheet labels use the package's own font.
 - Videos are now standard HD colour (BT.709, limited range, tagged). 1.0.0 wrote the browser's full-range JPEG colour, which some players and apps show wrongly.
 - Re-made the approved film from this edition: every frame within 1% of v3's colours (mean difference 1.9 of 255 levels, worst frame 2.3, PSNR at least 39 dB), the same 80 effects and −14.2 LUFS. The jump scan gives v3's six flags plus the calendar page flip at 4.07 s, a gag sitting on the threshold.
+- A `brand/` kit: the colours and fonts of the approved film in one place (hex codes, `palette.json`, `palette.css`, a style sheet drawn by `recipe/tools/style-sheet.mjs`), with clear notes that the fonts are included.
 - Private notes and paths removed; the tool for transcribing reference videos left out (it needed a local speech runtime that isn't included).

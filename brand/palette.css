@@ -1,0 +1,15 @@
+/* 3D Cartoon Animation: the colours and fonts of the approved film, for web pages, slides or thumbnails.
+   The font paths are relative to this file, so keep it in the package's brand/ folder (or copy the fonts with it). */
+:root {
+  --rouge-noir: #5B0D18;
+  --blue-coral: #083B3A;
+  --cognac: #8A4E2A;
+  --white-sand: #E7E3DD;
+  --anthracite: #1B1B1F;
+  --brand-red: #E0394F; /* the italic caption words */
+}
+@font-face { font-family: "TeX Gyre Heros"; font-weight: 700; src: url("../recipe/engine/fonts/standin/texgyreheros-bold.otf") format("opentype"); }
+@font-face { font-family: "TeX Gyre Heros"; font-weight: 400; src: url("../recipe/engine/fonts/standin/texgyreheros-regular.otf") format("opentype"); }
+@font-face { font-family: "Instrument Serif"; font-style: italic; src: url("../recipe/engine/fonts/standin/InstrumentSerif-Italic.ttf") format("truetype"); }
+@font-face { font-family: "Instrument Serif"; font-style: normal; src: url("../recipe/engine/fonts/standin/InstrumentSerif-Regular.ttf") format("truetype"); }
+@font-face { font-family: "Titan One"; src: url("../recipe/engine/fonts/TitanOne-Regular.ttf") format("truetype"); }

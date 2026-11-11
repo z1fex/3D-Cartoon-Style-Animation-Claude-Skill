@@ -21,8 +21,8 @@ async function loadFont(family, descriptors, candidates) {
 }
 try {
   const fonts = {
-    sans: await loadFont('Brand Sans', { weight: '700' }, [['Helvetica Bold (brand)', './fonts/brand/Helvetica-Bold.otf'], ['Helvetica Bold (brand)', './fonts/brand/Helvetica-Bold.ttf'], ['TeX Gyre Heros Bold (stand-in for Helvetica)', './fonts/standin/texgyreheros-bold.otf']]),
-    serif: await loadFont('Brand Serif', { style: 'italic', weight: '400' }, [['Editorial New Italic (brand)', './fonts/brand/EditorialNew-Italic.otf'], ['Editorial New Italic (brand)', './fonts/brand/EditorialNew-Italic.ttf'], ['Instrument Serif Italic (stand-in for Editorial New)', './fonts/standin/InstrumentSerif-Italic.ttf']]),
+    sans: await loadFont('Brand Sans', { weight: '700' }, [['Helvetica Bold (brand)', './fonts/brand/Helvetica-Bold.otf'], ['Helvetica Bold (brand)', './fonts/brand/Helvetica-Bold.ttf'], ['TeX Gyre Heros Bold (included; Helvetica style)', './fonts/standin/texgyreheros-bold.otf']]),
+    serif: await loadFont('Brand Serif', { style: 'italic', weight: '400' }, [['Editorial New Italic (brand)', './fonts/brand/EditorialNew-Italic.otf'], ['Editorial New Italic (brand)', './fonts/brand/EditorialNew-Italic.ttf'], ['Instrument Serif Italic (included; Editorial New style)', './fonts/standin/InstrumentSerif-Italic.ttf']]),
   };
   for (const [fam, url] of [['Titan One', './fonts/TitanOne-Regular.ttf']]) { const f = new FontFace(fam, `url(${url})`); await f.load(); document.fonts.add(f); }
   const studio = new Studio();
